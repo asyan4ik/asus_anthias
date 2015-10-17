@@ -8,25 +8,3 @@
 /dev/block/platform/msm_sdcc.1/by-name/userdata    /data        ext4    nosuid,nodev,barrier=1,noauto_da_alloc,discard      wait,check,encryptable=footer
 /dev/block/platform/msm_sdcc.1/by-name/boot           /boot        emmc    defaults                                            defaults
 /dev/block/platform/msm_sdcc.1/by-name/recovery       /recovery    emmc    defaults                                            defaults
-
-# Needed for bootloader.img
-/dev/block/platform/msm_sdcc.1/by-name/misc		/misc		emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/loader		/loader	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/ubootlogo	/ubootlogo	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/abi			/abi		emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/abi-sec		/abi-sec	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/u-boot		/u-boot		emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/hwconf		/hwconf		emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/dt-blob		/dt-blob	emmc    defaults	defaults
-
-# Needed for radio.img
-/dev/block/platform/msm_sdcc.1/by-name/umts-cal		/umts-cal	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/sys-parm-dep	/sys-parm-dep	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/sys-parm-ind	/sys-parm-ind	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/cp-image		/cp-image	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/parm-spml-dep	/parm-spml-dep	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/parm-spml-ind	/parm-spml-ind	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/version-info	/version-info	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/dsp-dram		/dsp-dram	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/dsp-pram		/dsp-pram	emmc    defaults	defaults
-/dev/block/platform/msm_sdcc.1/by-name/cp-boot			/cp-boot	emmc    defaults	defaults
