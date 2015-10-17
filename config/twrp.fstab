@@ -5,13 +5,3 @@
 /data		ext4		/dev/block/platform/msm_sdcc.1/by-name/userdata
 /boot		emmc		/dev/block/platform/msm_sdcc.1/by-name/boot
 /recovery	emmc		/dev/block/platform/msm_sdcc.1/by-name/recovery
-
-# Needed for bootloader.img
-/misc		emmc		/dev/block/platform/msm_sdcc.1/by-name/misc
-/loader		emmc		/dev/block/platform/msm_sdcc.1/by-name/loader
-/ubootlogo	emmc		/dev/block/platform/msm_sdcc.1/by-name/ubootlogo
-/abi		emmc		/dev/block/platform/msm_sdcc.1/by-name/abi
-/abi-sec	emmc		/dev/block/platform/msm_sdcc.1/by-name/abi-sec
-/u-boot		emmc		/dev/block/platform/msm_sdcc.1/by-name/u-boot
-/hwconf		emmc		/dev/block/platform/msm_sdcc.1/by-name/hwconf
-/dt-blob	emmc		/dev/block/platform/msm_sdcc.1/by-name/dt-blob
