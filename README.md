@@ -1,4 +1,2 @@
 # asus_anthias
-zenwatch
-
-work
+zenwatch twrp tree
