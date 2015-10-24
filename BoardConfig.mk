@@ -31,7 +31,6 @@ BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive,hi=there
 
 BOARD_KERNEL_BASE := 0x0008000
 BOARD_KERNEL_PAGESIZE := 2048
-#BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x0008000 --ramdisk_offset 0x2000000 --second_offset 0x0f00000 --tags_offset 0x01E00000
 
 # prebuilt kernel
 TARGET_PREBUILT_KERNEL := device/asus/anthias/kernel
@@ -51,9 +50,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 TARGET_RECOVERY_FSTAB := device/asus/anthias/config/twrp.fstab
 
 TW_THEME := watch_mdpi
-#DEVICE_RESOLUTION := 240x240
-#TW_X_OFFSET := 40
-#TW_Y_OFFSET := 40
 TW_ROUND_SCREEN := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_NO_USB_STORAGE := true
