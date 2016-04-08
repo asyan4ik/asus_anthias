@@ -5,3 +5,16 @@
 /data		ext4		/dev/block/platform/msm_sdcc.1/by-name/userdata
 /boot		emmc		/dev/block/platform/msm_sdcc.1/by-name/boot
 /recovery	emmc		/dev/block/platform/msm_sdcc.1/by-name/recovery
+/asdf		ext4		/dev/block/platform/msm_sdcc.1/by-name/tombstones
+/factory	ext4		/dev/block/platform/msm_sdcc.1/by-name/asusdata
+
+/misc		emmc		/dev/block/platform/msm_sdcc.1/by-name/misc
+/sbl1		emmc		/dev/block/platform/msm_sdcc.1/by-name/sbl1
+/sbl1bak	emmc		/dev/block/platform/msm_sdcc.1/by-name/sbl1bak
+/rpm		emmc		/dev/block/platform/msm_sdcc.1/by-name/rpm
+/rpmbak		emmc		/dev/block/platform/msm_sdcc.1/by-name/rpmbak
+/tz			emmc		/dev/block/platform/msm_sdcc.1/by-name/tz
+/tzbak		emmc		/dev/block/platform/msm_sdcc.1/by-name/tzbak
+/sdi		emmc		/dev/block/platform/msm_sdcc.1/by-name/sdi
+/aboot		emmc		/dev/block/platform/msm_sdcc.1/by-name/aboot
+/abootbak	emmc		/dev/block/platform/msm_sdcc.1/by-name/abootbak	
